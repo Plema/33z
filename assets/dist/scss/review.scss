@@ -1,0 +1,493 @@
+.all-review{
+    h2{
+        margin-bottom: 30px;
+    }
+    .reviews{
+        max-width: 1065px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        .one-rev{
+            margin-bottom: 50px;
+            .title{
+                display: flex;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                // justify-content: space-around;
+                .photo{
+                    max-width: 66px;
+                    margin-right: 20px;
+                    margin-bottom: 25px;
+                    img{
+                        display: block;
+                        margin: 0 auto;
+                        border-radius: 50%;
+                    }
+                }
+                .name{
+                    margin-bottom: 25px;
+                    margin-top: 10px;
+                    h4{
+                        color: #282828;
+                        font-size: 16px;
+                        font-family: "GothamProBold";
+                        line-height: 26px;
+                        &:last-of-type{
+                            margin-bottom: 20px;
+                        }
+                    }
+                    h6{
+                        color: #a7a7a7;
+                        font-size: 14px;
+                        line-height: 26px;
+                        font-family: "GothamProRegular";
+                    }
+                }
+                .some-img{
+                    position: relative;
+                    margin: 0 auto;
+                    padding-top: 50px;
+                    padding-right: 65px;
+                    margin-bottom: 25px;
+                    .open-img{
+                        position: relative;
+                        padding-top: 10px;
+                        padding-right: 10px;
+                        a{
+                            width: 105px;
+                            height: 73px;
+                            display: block;
+                            overflow: hidden;
+                        }
+                        img{
+                            &:first-of-type{
+                                display: block;
+                                margin: 0 auto;
+                            }
+
+                        }
+                        .plus{
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            width: 23px;
+                            height: 23px;
+                        }
+
+                    }
+                    .otkr{
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-end;
+                        p{
+                            color: #a7a7a7;
+                            font-family: 'LeoHand';
+                            font-size: 18px;
+                            letter-spacing: 1.8px;
+                            margin-bottom: 4px;
+                        }
+                        img{
+                            margin-right: 15px;
+                            &:last-of-type{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .some-text{
+                p{
+                    max-height: 125px;
+                    color: #282828;
+                    font-size: 16px;
+                    font-family: "GothamProLight";
+                    line-height: 26px;
+                    margin-bottom: 15px;
+                    overflow: hidden;
+                }
+                .op{
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    h5{
+                        color: #909090;
+                        font-size: 12px;
+                        font-weight: 700;
+                        text-decoration: underline;
+                        letter-spacing: 1.38px;
+                        font-family: "GothamProRegular";
+                        width: 90px;
+                    }
+                    .raz{
+                        display: block;
+                    }
+                    .sver{
+                        display: none;
+                    }
+                    img{
+                        margin-left: 2px;
+                        transition: 0.5s;
+                    }
+                }
+            }
+            .open-info{
+                p{
+                    max-height: 100%;
+                }
+                .op{
+                    .raz{
+                        display: none;
+                    }
+                    .sver{
+                        display: block;
+                        color: #30BB83;
+                    }
+                    img{
+                        transition: 0.5s;
+                        transform: rotate(-90deg);
+                    }
+                }
+            }
+        }
+    }
+    .more-news {
+        max-width: 150px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 35px;
+        margin-bottom: 30px;
+        a {
+            text-decoration: underline;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 500;
+            color: #909090;
+            letter-spacing: 1.2px;
+        }
+        img {
+            width: 20px;
+            height: 18px;
+        }
+    }
+}
+.mob-form{
+    background: url('../img/back-form.png') no-repeat 45%;
+    background-size: cover;
+    margin-bottom: 50px;
+    .desc-form{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        h4{
+            text-align: center;
+            color: #282828;
+            font-family: "GothamProMedium";
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+        form{
+            max-width: 1242px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            .left-part{
+                .dd-container{
+                    max-width: 291px !important;
+                    margin-bottom: 20px;
+                    width: 100% !important;
+                    height: 48px;
+                    border-radius: 13px;
+                    border: none;
+                    background-color: #ffffff;
+                    .dd-select{
+                        max-width: 291px !important;
+                        width: 100% !important;
+                        height: 48px;
+                        line-height: 25px;
+                        border-radius: 13px;
+                        background: #ffffff !important;
+                        label{
+                            font-family: "GothamProRegular" !important;
+                        }
+                    }
+                    .dd-options{
+                        max-width: 291px !important;
+                        width: 100% !important;
+                        border-radius: 13px;
+                        li{
+                            max-width: 291px !important;
+                            width: 100% !important;
+                            .dd-option{
+                                border: none !important;
+                                label{
+                                    font-family: "GothamProRegular";
+                                }
+                            }
+                            .dd-option-selected{
+                                background: #ffffff !important;
+                                label{
+                                    color: #0c9764;;
+                                    font-family: "GothamProRegular";
+                                }
+                            }
+                        }
+                    }
+                }
+                input{
+                    width: 291px ;
+                    max-width: 100%;
+                    height: 48px;
+                    border: none;
+                    border-radius: 13px;
+                    background-color: #ffffff;
+                    margin-bottom: 20px;
+                    padding: 18px;
+                    display: block;
+                }
+            }
+            .right-part{
+                textarea{
+                    resize: none;
+                    margin: 0 auto;
+                    padding: 18px;
+                    width: 291px;
+                    height: 301px;
+                    margin-bottom: 25px;
+                    border-radius: 13px;
+                    border: 1px solid transparent;
+                    background-color: #ffffff;
+                    font-size: 16px;
+                    font-family: "GothamProLight";
+                    display: block;
+                }
+                .autoriz{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                    .gog-face{
+                        h5{
+                            font-family: "GothamProRegular";
+                            margin-bottom: 20px;
+                            font-size: 16px;
+                        }
+                        .social{
+                            display: flex;
+                            margin-bottom: 10px;
+                            img{
+                                border-radius: 50%;
+                                max-width: 39px;
+                                transition: 0.7s;
+                                cursor: pointer;
+                                &:not(:last-of-type){
+                                    margin-right: 15px;
+                                }
+                                &:hover{
+                                    box-shadow: 0 12px 24px rgba(40, 40, 40, 0.16);
+                                }
+                            }
+                        }
+                    }
+                    .but{
+                        button{
+                            margin-bottom: 5px;
+                            font-family: "GothamProMedium";
+                        }
+                        p{
+                            color: #a7a7a7;
+                            font-family: "GothamProRegular";
+                            font-size: 12px;
+                            font-weight: 300;
+                            text-align: center;
+                            a{
+                                color: #a7a7a7;
+                                font-family: "GothamProRegular";
+                                font-size: 12px;
+                                font-weight: 300;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+   .all-review{
+       h2{
+           margin-bottom: 75px;
+       }
+       .reviews{
+           .one-rev{
+               margin-bottom: 70px;
+               .title{
+                   justify-content: flex-start;
+                   .photo{
+                       max-width: 85px;
+                   }
+                   .name{
+                       margin-right: 45px;
+                   }
+                   .some-img{
+                       margin: 0;
+                       padding-top: 0;
+                       padding-right: 180px;
+                       .otkr{
+                           align-items: flex-start;
+                           padding-left: 40px;
+                           p{
+                               margin-bottom: 0;
+                           }
+                           img{
+                               margin-left: -40px;
+                               &:last-of-type{
+                                   display: block;
+                               }
+                               &:first-of-type{
+                                   display: none;
+                               }
+                           }
+                       }
+                   }
+               }
+               .some-text{
+                   margin-left: 120px;
+                   p{
+                       max-height: 100%;
+                   }
+                   .op{
+                       display: none;
+                   }
+               }
+           }
+       }
+   } 
+   .mob-form{
+       .desc-form{
+           form{
+               flex-wrap: nowrap;
+               align-items: flex-start;
+               .right-part{
+                   .autoriz{
+                       .but{
+                           p{
+                               text-align: right;
+                           }
+                       }
+                   }
+               }
+           }
+       }
+   }
+}
+
+@media screen and (min-width: 1024px){
+    .all-review{
+        .more-news{
+            display: none;
+        }
+    }
+    .mob-form{
+        background: none;
+        .desc-form{
+           background: url('../img/back-form.png') no-repeat 20%;
+           background-size: cover;
+           padding-left: 65px;
+           padding-right: 65px;
+            h4{
+                margin-bottom: 70px;
+                font-size: 28px;
+            }
+            form{
+                justify-content: space-between;
+                .right-part{
+                    textarea{
+                        width: 400px;
+                    }
+                    .autoriz{
+                        justify-content: space-between;
+                        .but{
+                            button{
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1400px){
+    .mob-form{
+        margin-bottom: 150px;
+        .desc-form{
+            padding-top: 85px;
+            padding-bottom: 65px;
+            form{
+                .left-part{
+                    .dd-container{
+                        max-width: 402px !important;
+                        margin-bottom: 30px;
+                        height: 66px;
+                        .dd-select{
+                            max-width: 402px !important;
+                            height: 66px;
+                            line-height: 42px;
+                        }
+                        .dd-options{
+                            max-width: 402px !important;
+                            li{
+                                max-width: 402px !important;
+                            }
+                        }
+                    }
+                    input{
+                        width: 402px;
+                        height: 66px;
+                        margin-bottom: 30px;
+                    }
+
+                }
+                .right-part{
+                    textarea{
+                        width: 620px;
+                        height: 250px;
+                    }
+                    .autoriz{
+                        .but{
+                            button{
+                                margin: 0;
+                                margin-left: auto;
+                                margin-bottom: 15px;
+                                width: 279px;
+                                height: 66px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1600px){
+    .mob-form{
+        .desc-form{
+            form{
+                .right-part{
+                    textarea{
+                        width: 820px;
+                    }
+                }
+            }
+        }
+    }
+}

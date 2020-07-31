@@ -1,0 +1,129 @@
+.causes {
+    background: url('../img/bg-causes-mob.png') no-repeat;
+    background-size: cover;
+    background-position: 0% 35px;
+    padding-bottom: 40px;
+    @media screen and (min-width: 425px){
+        background: url('../img/bg-causes.png') no-repeat; 
+        background-size: cover;
+        background-position: 28% 6px;
+        padding-bottom: 75px;
+    }
+        .headline {
+            display: flex;
+            align-items: flex-end;
+            img {
+                margin-right: 16px;
+            }
+            h3 {
+                p {
+                    font-size: 18px;
+                    color: #282828;
+                    font-weight: 500;
+                    font-family: "GothamProBold";
+                }
+            }
+        }
+    .all-causes {
+        padding-top: 40px;
+        .one-causes {
+            h4 {
+                font-size: 18px;
+                color: #a7a7a7;
+                font-family: 'LeoHand';
+            }
+            p {
+                font-size: 18px;
+                font-weight: 500;
+                color: #282828;
+                font-family: "GothamProMedium";
+            }
+            .info {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                padding-top: 20px;
+            }
+            .top-causes {
+                margin-bottom: 55px;
+                max-width: 245px;
+                min-height: 215px;
+            }
+            .bottom-causes {
+                padding-bottom: 48px;
+                max-width: 336px;
+            }
+        }
+    }
+    .custom-arr {
+        width: 115px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .causes {
+        .some-causes {
+            .headline {
+                h3 {
+                    p {
+                        font-size: 28px;
+                    }
+                }
+                img {
+                    width: 96px;
+                    height: 165px;
+                    margin-right: 30px;
+                }
+            }
+        }
+        .all-causes {
+            padding-top: 75px;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .causes {
+        .all-causes {
+            .one-causes {
+                .info {
+                    display:flex;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .causes {
+        .all-causes {
+            padding-left: 125px;
+            .one-causes {
+                .bottom-causes {
+                    padding-left: 100px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .causes {
+        .all-causes {
+            padding-left: 165px;
+            .one-causes {
+                .bottom-causes {
+                    padding-left: 120px;
+                }
+            }
+        }
+    }
+}
+

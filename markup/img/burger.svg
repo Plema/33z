@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="бургер" class="cls-1" d="M1580,27h20v2h-20V27Zm0,6h20v2h-20V33Zm5.94,6H1600v2h-14.06V39Z" transform="translate(-1580 -27)"/>
+</svg>

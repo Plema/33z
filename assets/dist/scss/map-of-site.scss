@@ -1,0 +1,129 @@
+.all-map{
+    h2{
+        color: #282828;
+        font-size: 23px;
+        text-transform: uppercase;
+        margin-bottom: 45px;
+    }
+    .one{
+        max-width: 470px;
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 25px;
+            .left{
+                display: flex;
+                align-items: center;
+                min-width: 180px;
+                .yes{
+                    margin-right: 20px;
+                    max-width: 20px;
+                    width: 100%;
+                    height: 20px;
+                    box-shadow: 0 7px 21px rgba(249, 187, 39, 0.86);
+                    background-image: linear-gradient(to top, #fbb91d 0%, #efd388 100%);
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                h4{
+                    font-family: "GothamProBold";
+                    color: #0c9764;
+                    font-size: 18px;
+                    text-decoration: underline;
+                }
+            }
+            .arrow{
+                transform: rotate(-90deg);
+            }
+        }
+        .open{
+            .arrow{
+                transition: 0.5s;
+                transform: rotate(0);
+            }
+        }
+        .all-links{
+            margin-bottom: 25px;
+            display: none;
+            .big-list{
+                margin-left: 60px;
+                li{
+                    color: #0c9764;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                    padding-left: 10px;
+                    position: relative;
+                    &:before {
+                        content: '';
+                        display: block;
+                        width: 12px;
+                        height: 12px;
+                        background: #0c9764;
+                        border-radius: 50%;
+                        position: absolute;
+                        left: -20px;
+                        top: 0;
+                        transform: translate(0, 50%);
+                    }
+                    a{
+                        font-size: 16px;
+                        font-family: "GothamProLight";
+                        color: #0c9764;
+                        text-decoration: underline;
+                        @media screen and (min-width: 1024px){
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .small{
+                    li{
+                        color: #0c9764;
+                        font-size: 16px;
+                        margin-bottom: 20px;
+                        margin-left: 20px;
+                        &:before {
+                            content: '';
+                            display: none;
+                        }
+                        a{
+                            font-size: 16px;
+                            font-family: "GothamProLight";
+                            color: #0c9764;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    .all-map{
+        h2{
+            font-size: 32px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+    .all-map{
+        margin-bottom: 50px;
+        h2{
+            font-size: 48px;
+        }
+        .one{
+            .title{
+                .arrow{
+                    display: none;
+                }
+            }
+            .all-links{
+                display: block !important;
+            }
+        }
+    }
+}

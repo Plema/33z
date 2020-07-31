@@ -1,0 +1,89 @@
+body{
+    margin: 0 !important;
+}
+main{
+    background: url('../img/back-404-mob.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0 ;
+    padding-top: 105px;
+    img{
+        margin: 0 auto;
+        max-width: 293px;
+    }
+    .mob{
+        display: block;
+    }
+    .desc{
+        display: none;
+    }
+    .text{
+        text-align: center;
+        padding: 0 40px;
+        h2{
+            margin-bottom: 20px;
+            color: #e5a318;
+            font-family: "GothamProBold";
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+        h3{
+            color: #e5a318;
+            font-family: "GothamProRegular";
+            font-size: 16px;
+            line-height: 25px;
+            margin-bottom: 25px;
+        }
+        p{
+            font-size: 14px;
+            font-family: "GothamProLight";
+            line-height: 25px;
+            a{
+                color: #282828;
+                font-size: 14px;
+                font-family: "GothamProBold";
+                font-weight: 700;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    main{
+        background: url('../img/back-404-desc.jpg') no-repeat 50%;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    main{
+        padding-top: 240px;
+        img{
+            max-width: 793px;
+            margin-bottom: 40px;
+        }
+        .mob{
+            display: none;
+        }
+        .desc{
+            display: block ;
+        }
+        .text{
+            h2{
+                font-size: 48px;
+            }
+            h3{
+                font-size: 18px;
+            }
+            p{
+                font-size: 20px;
+                a{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

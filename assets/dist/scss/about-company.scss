@@ -1,0 +1,789 @@
+.all-fac{
+    .clinic-facilities{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        // margin-bottom: 50px;
+        .left-part{
+            // margin: 0 auto;
+            max-width: 700px;
+            margin-bottom: 25px;
+            h3{
+                color: #282828;
+                font-size: 23px;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+                padding: 15px;
+                background: url('../img/about.png') no-repeat;
+                text-align: center;
+            }
+            p{
+                color: #282828;
+                font-size: 16px;
+                font-family: "GothamProLight";
+                line-height: 26px;
+                height: 125px;
+                overflow: hidden;
+                margin-bottom: 5px;
+                margin-bottom: 15px;
+            }
+            .op{
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                h5{
+                    color: #909090;
+                    font-size: 12px;
+                    font-weight: 700;
+                    text-decoration: underline;
+                    letter-spacing: 1.38px;
+                    font-family: "GothamProRegular";
+                    width: 90px;
+                }
+                .raz{
+                    display: block;
+                }
+                .sver{
+                    display: none;
+                }
+                img{
+                    margin-left: 2px;
+                    transition: 0.5s;
+                }
+            }
+        }
+        .open-info{
+            p{
+                height: auto ;
+            }
+            .op{
+                .raz{
+                    display: none;
+                }
+                .sver{
+                    color: #42ba88;
+                    display: block;
+                }
+                img{
+                    transform: rotate(-90deg);
+                }
+            }
+        }
+        .all-slider{
+            position: relative;
+            max-width: 600px;
+            width: 100%;
+            .right-part-slider{
+                margin-bottom: 30px;
+                div{
+                    img{
+                        margin: 0 auto;
+                        max-width: 478px;
+                        border-radius: 15px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+.all-doctors{
+    margin-bottom: 50px;
+    h2{
+        color: #282828;
+        font-size: 24px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    h3{
+        color: #282828;
+        font-family: "GothamProLight";
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 5px;
+    }
+    .main-info{
+        .photo{
+            .mob{
+                display: block;
+                margin: 0 auto;
+            }
+            .desc{
+                display: none;
+            }
+        }
+        .one-point{
+            display: flex;
+            margin-bottom: 15px;
+            .yes{
+                border: 1px solid #e1e1e1;
+                padding: 8px;
+                margin-right: 20px;
+                border-radius: 50%;
+                max-height: 36px;
+                height: 100%;
+                min-width: 36px;
+                max-width: 36px;
+                width: 100%;
+                span{
+                    max-width: 20px;
+                    width: 100%;
+                    height: 20px;
+                    box-shadow: 0 7px 21px rgba(249, 187, 39, 0.86);
+                    background-image: linear-gradient(to top, #fbb91d 0%, #efd388 100%);
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img{
+                        width: 10px;
+                        height: 7px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+            .text{
+                h3{
+                    background: linear-gradient(to right, #0c9764 0%, #38c38a 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    color: #282828;
+                    margin-bottom: 14px;
+                    font-family: 'GothamPro';
+                    font-size: 38px;
+                }
+                h5{
+                    color: #282828;
+                    font-family: "GothamProMedium";
+                    font-size: 16px;
+                    margin-bottom: 14px;
+                }
+            }
+        }
+    }
+    .yellow-button{
+        color: #ffffff;
+        font-family: "GothamProRegular";
+        display: block;
+        margin: 0 auto;
+        line-height: 47px;
+        text-transform: uppercase;
+        font-size: 12px;
+        &:hover{
+            box-shadow: 0 12px 24px rgba(40, 40, 40, 0.16);
+            background-image: linear-gradient(to top, #fbb91d 0%, #efd388 100%);
+            color: #282828;
+        }
+    }
+}
+.equipment-mob{
+    padding: 50px 0;
+    background: url('../img/equip-mob.png') no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    .equipment-desc{
+        h2{
+            color: #282828;
+            font-size: 24px;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+        }
+        h3{
+            color: #282828;
+            font-family: "GothamProLight";
+            font-size: 18px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            max-width: 425px;
+        }
+        h4{
+            color: #282828;
+            font-family: "GothamProLight";
+            font-size: 18px;
+            margin-bottom: 30px;
+            max-width: 425px;
+        }
+        .prem{
+            display: flex;
+            align-items: center;
+            max-width: 150px;
+            h4{
+                color: #bfdab9;
+                font-family: "LeoHand";
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 23px;
+            }
+            img{
+                width: 41px;
+                height: 43px;
+            }
+        }
+        .all-slider{
+            .some-equip{
+                border-radius: 13px;
+                margin-bottom: 20px;
+                .one-slide{
+                    padding-top: 40px;
+                    margin: 0 2px;
+                    .all-block{
+                        max-width: 290px;
+                        margin: 0 auto;
+                        border-radius: 13px;
+                        background-color: #ffffff;
+                        padding: 45px 0;
+                        min-height: 170px;
+                        p{
+                            color: #282828;
+                            font-family: "GothamProLight";
+                            font-size: 16px;
+                            line-height: 26px;
+                            padding: 0 15px;
+                        }
+                        img{
+                            margin-top: -75px;
+                            margin-left: auto;
+                            display: block;
+                            width: 77px;
+                            height: 77px;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.all-price{
+    margin-bottom: 50px;
+    .all-form{
+        margin: 0 auto;
+        max-width: 1370px;
+        background: url('../img/form-back-mob.jpg') no-repeat;
+        background-size: cover;
+        padding: 25px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border-radius: 15px;
+        .left-text{
+            max-width: 455px;
+            h4{
+                font-family: "GothamProMedium";
+                color: #ffffff;
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+            h5{
+                color: #282828;
+                font-family: "GothamProLight";
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 20px;
+            }
+        }
+        .image{
+            margin-bottom: 20px;
+            img{
+                max-width: 190px;
+            }
+        }
+        .buttons{
+            position: relative;
+            a{
+                max-width: 252px;
+            }
+            div{
+                margin-bottom: 7px;
+                padding-bottom: 43px;
+                max-width: 220px;
+                p{
+                    span{
+                        font-family: 'LeoHand';
+                        color: #ffffff;
+                        font-size: 18px;
+                        letter-spacing: 1.81px;
+                        position: relative;
+                    }
+                    .mob{
+                        display: inline-block;
+                    }
+                    .desc{
+                        display: none;
+                    }
+                    img{
+                        margin-bottom: -43px;
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+.send-form{
+    padding-bottom: 50px;
+    h2{
+        margin-bottom: 25px;
+        color: #282828;
+        font-size: 24px;
+    }
+    h4{
+        max-width: 430px;
+        margin-bottom: 25px;
+        font-family: "GothamProRegular";
+    }
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .dd-pointer {
+            transform: rotate(0deg) !important;
+        }
+        .dd-container{
+            max-width: 315px !important;
+            width: 100% !important;
+            margin: 5px 2px;
+            height: 48px;
+            border-radius: 13px;
+            background-color: #ffffff;
+            position: relative;
+            z-index: 3000;
+            .dd-select{
+                max-width: 315px !important;
+                width: 100% !important;
+                height: 48px;
+                line-height: 25px;
+                border-radius: 13px;
+                background: #ffffff !important;
+                label{
+                    font-family: "GothamProRegular" !important;
+                }
+            }
+            .dd-options{
+                max-width: 315px !important;
+                width: 100% !important;
+                border-radius: 13px;
+                li{
+                    max-width: 315px !important;
+                    width: 100% !important;
+                    .dd-option{
+                        border: none !important;
+                        label{
+                            font-family: "GothamProRegular";
+                        }
+                    }
+                    .dd-option-selected{
+                        background: #ffffff !important;
+                        label{
+                            color: #0c9764;;
+                            font-family: "GothamProRegular";
+                        }
+                    }
+                }
+            }
+        }
+        input{
+            display: block;
+            margin: 5px 2px;
+            max-width: 315px;
+            width: 100%;
+            height: 48px;
+            border-radius: 13px;
+            border: 1px solid #909090;
+            padding: 18px;
+        }
+        button{
+            margin: 5px 2px;
+            max-width: 315px;
+            width: 100%;
+        }
+        p{
+            color: #a7a7a7;
+            font-size: 12px;
+            font-weight: 300;
+            width: 100%;
+            text-align: center;
+            a{
+                color: #a7a7a7;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+@media screen and (min-width: 425px){
+    .all-doctors{
+        .main-info{
+            .left-part{
+                display: flex;
+                justify-content: space-between;
+                .one-point{
+                    width: 50%;
+                }
+            }
+            .right-part{
+                display: flex;
+                justify-content: space-between;
+                .one-point{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    .all-fac{
+        background: url('../img/about.png') no-repeat 0% 100%;
+        .clinic-facilities {
+            .left-part{
+                h3{
+                    padding: 40px 0;
+                    font-size: 32px;
+                    text-align: left;
+                    padding-left: 40px;
+                    margin-bottom: 15px;
+                }
+                p{
+                    height: auto;
+                    font-size: 18px;
+                    padding-left: 60px;
+                }
+                .op{
+                    display: none;
+                }
+            }
+            .all-slider{
+                .custom-arr{
+                    margin: auto;
+                    top: 0;
+                    bottom: 0;
+                    width: 100%;
+                    position: absolute;
+                    height: 50px;
+                }
+            }
+        }
+    }
+    .all-doctors{
+        background: url('../img/back-doctors.png') no-repeat;
+        background-size: cover;
+        h2{
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+        h3{
+            font-size: 18px;
+            max-width: 611px;
+        }
+        .main-info{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            .photo{
+                order: 1;
+            }
+            .one-point{
+                .text{
+                    h3{
+                        margin-bottom: 10px;
+                    }
+                    h5{
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            .left-part{
+                order: 0;
+                margin-top: 50px;
+                margin-right: -30px;
+                min-width: 240px;
+                display: block;
+                padding-bottom: 50px;
+                .one-point{
+                    flex-direction: row-reverse;
+                    width: auto;
+                    &:first-of-type{
+                        margin-bottom: 50px;
+                        min-height: 110px;
+                    }
+                    .yes{
+                        margin-right: 0;
+                        margin-left: 20px;
+                    }
+                    .text{
+                        text-align: right;
+                    }
+                }
+            }
+            .right-part{
+                order: 2;
+                margin-top: 50px;
+                margin-left: -30px;
+                display: block;
+                .one-point{
+                    width: auto;
+                    &:first-of-type{
+                        margin-bottom: 50px;
+                        min-height: 110px;
+                    }
+                }
+            }
+            .yellow-button{
+                position: absolute;
+                bottom: 0;
+                width: 230px;
+            }
+        }
+    }
+    .equipment-mob{
+        background: none;
+        padding: 0;
+        .equipment-desc{
+            background: url('../img/equip-desc.png');
+            background-size: cover;
+            padding: 100px 50px 85px 50px;
+            h2{
+                font-size: 32px;
+            }
+        }
+
+    }
+    .causes{
+        margin-top: -14px;
+    }
+    .send-form{
+        h2{
+            text-align: center;
+            font-size: 32px;
+        }
+        h4{
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
+        form{
+            p{
+                margin-top: 10px;
+                text-align: right;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+    .all-fac{
+        .clinic-facilities {
+            .left-part{
+                h3{
+                    font-size: 48px;
+                }
+                p{
+                    height: auto;
+                    font-size: 18px;
+                }
+            }
+        } 
+    }
+    .equipment-mob{
+        .equipment-desc{
+            .prem{
+                flex-direction: row-reverse;
+                margin-left: auto;
+                max-width: 400px;
+                h4{
+                    font-size: 28px;
+                }
+                img{
+                    transform: scale(-1, 1);
+                    width: 65px;
+                    height: 48px;
+                    margin-right: 15px;
+                }
+            }
+            .all-slider{
+                position: relative;
+                padding-top: 50px;
+                .custom-arr{
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                }
+                .some-equip{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .all-price{
+        margin-bottom: 125px;
+        .all-form{
+            background: url('../img/form-back-desc.jpg');
+            background-size: cover;
+            border-radius: 15px;
+        }
+    }
+    .send-form{
+        h2{
+            font-size: 48px;
+        }
+        form {
+            input {
+                height: 65px;
+                border-radius: 20px;
+            }
+            button {
+                height: 65px;
+            }
+            .dd-container{
+                height: 65px;
+                border-radius: 20px;
+                .dd-select{
+                    height: 65px;
+                    line-height: 42px;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1280px){
+    .all-price{
+        margin-bottom: 120px;
+        .all-form{
+            padding: 25px 65px 40px 65px;
+            .left-text{
+                h5{
+                    font-size: 18px;
+                }
+                h4 {
+                    font-size: 28px;
+                }
+            }
+            .buttons{
+                div{
+                    position: absolute;
+                    margin-left: -135%;
+                    margin-top: 30%;
+                    max-width: 440px;
+                    p{
+                        display: flex;
+                        align-items: baseline;
+                        .mob{
+                            display: none;
+                        }
+                        .desc{
+                            display: block;
+                            width: 95px;
+                            height: 54px;
+                            margin-left: 40px;
+                        }
+                        img{
+                            position: relative;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1440px){
+    .all-fac{
+        .clinic-facilities {
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            // background: url('../img/back-osn.png') no-repeat;
+            // background-size: 100%;
+            .left-part{
+                h3{
+                    background: none;
+                }
+            }
+        } 
+    }
+    .all-doctors{
+        h2{
+            font-size: 48px;
+            margin-bottom: 65px;
+        }
+        .main-info{
+            .photo{
+                .desc{
+                    display: block;
+                }
+                .mob{
+                    display: none;
+                }
+            }
+            .one-point{
+                min-width: 295px;
+                .yes{
+                    display: none;
+                }
+                .text{
+                    h3{
+                        font-size: 78px;
+                        min-height: 60px;
+                        line-height: 60px;
+                    }
+                    h5{
+                        font-size: 16px;
+                    }
+                }
+            }
+            .left-part{
+                margin-top: 90px;
+                margin-right: 0;
+                padding-right: 20px;
+                .one-point{
+                    &:first-of-type{
+                        margin-bottom: 165px;
+                    }
+                }
+            }
+            .right-part{
+                margin-top: 60px;
+                margin-left: 0;
+                padding-left: 20px;
+                .one-point{
+                    &:first-of-type{
+                        margin-bottom: 175px;
+                    }
+                }
+            }
+            .yellow-button{
+                bottom: 160px;
+            }
+        }
+    }
+    .equipment-mob{
+        .equipment-desc{
+            h2{
+                font-size: 48px;
+            }
+        }
+    }
+    .send-form{
+        padding-bottom: 125px;
+        form{
+            button{
+                max-width: 280px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .send-form{
+        form{
+           justify-content: space-between;
+        }
+    }
+}

@@ -1,0 +1,166 @@
+.sale{
+    h2{
+        color: #282828;
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .all-sales{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        .one-sale{
+            max-width: 570px;
+            margin-bottom: 45px;
+            .photo{
+                max-width: 609px;
+                margin-bottom: 15px;
+                img{
+                    margin: 0 auto;
+                }
+            }
+            .text{
+                .title{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    h4{
+                        color: #282828;
+                        font-family: "GothamProBold";
+                        font-size: 18px;
+                        margin-bottom: 20px;
+                        max-width: 440px;
+                    }
+                    h5{
+                        color: #0c9764;
+                        font-family: "GothamProBold";
+                        font-size: 54px;
+                    }
+                }
+                p{
+                    max-height: 90px;
+                    color: #282828;
+                    font-family: "GothamProLight";
+                    font-size: 16px;
+                    line-height: 23px;
+                    margin-bottom: 15px;
+                    overflow: hidden;
+                }
+                a{
+                    color: #909090;
+                    font-family: "GothamProMedium";
+                    font-size: 12px;
+                    text-decoration: underline;
+                    letter-spacing: 1.2px;
+                    margin-bottom: 10px;
+                    display: inline-block;
+                }
+                .data-but{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                    h5{
+                        color: #0c9764;
+                        font-size: 14px;
+                        margin-bottom: 10px;
+                        span{
+                            font-family: "GothamProBold";
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .more-news {
+        max-width: 150px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 35px;
+        a {
+            text-decoration: underline;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 500;
+            color: #909090;
+            letter-spacing: 1.2px;
+        }
+        img {
+            width: 20px;
+            height: 18px;
+        }
+    }
+}
+.topImgArr{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 25px;
+}
+@media screen and (min-width: 768px){
+    .sale {
+        h2{
+            font-size: 32px;
+        }
+    }  
+}
+@media screen and (min-width: 1024px){
+    .sale {
+        .more-news {
+            display: none;
+        }
+    }  
+    .topImgArr{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .sale{
+        h2{
+            font-size: 48px;
+            text-transform: uppercase;
+            margin-bottom: 65px;
+        }
+        .all-sales{
+            .one-sale{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                min-height: 585px;
+                .text{
+                    .title{
+                        h4{
+                            font-size: 26px;
+                        }
+                    }
+                    p{
+                        height: auto;
+                        margin-bottom: 30px;
+                    }
+                    a{
+
+                    }
+                }
+                .data-but{
+                    justify-content: space-between;
+                        button {
+                            height: 66px;
+                        }
+                }
+            }
+        }
+    }  
+}
+
+@media screen and (min-width: 1600px){
+    .sale{
+        .all-sales{
+            .one-sale{
+                max-width: 605px;
+            }
+        }
+    }  
+}

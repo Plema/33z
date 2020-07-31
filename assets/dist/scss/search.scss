@@ -1,0 +1,178 @@
+.all-searchpage{
+    .top-search{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        p{
+            color: #282828;
+            font-size: 18px;
+            font-family: "GothamProBold";
+            margin-bottom: 15px;
+            margin-right: 20px;
+        }
+        input{
+            border-radius: 13px;
+            border: 1px solid #a7a7a7;
+            background-color: #ffffff;
+            color: #282828;
+            font-size: 16px;
+            padding: 17px;
+            max-width: 500px;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        button{
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            p{
+                margin-right: 15px;
+                color: #ffffff;
+                font-size: 12px;
+                font-family: "GothamProMedium";
+                text-transform: uppercase;
+                letter-spacing: 1.2px;
+                margin-bottom: 0;
+            }
+        }
+    }
+    h3{
+        color: #282828;
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    h4{
+        color: #282828;
+        font-size: 18px;
+        font-family: "GothamProBold";
+        margin-bottom: 50px;
+    }
+    .all-results{
+        .one-result{
+            margin-bottom: 45px;
+            h3{
+                color: #0c9764;
+                font-size: 20px;
+                font-family: "GothamProMedium";
+                line-height: 24px;
+                text-decoration: underline;
+                margin-bottom: 15px;
+                max-width: 420px;
+                text-align: left;
+                position: relative;
+                a {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    display: block;
+                }
+            }
+            p{
+                color: #282828;
+                font-size: 16px;
+                line-height: 24px;
+                max-height: 90px;
+                margin-bottom: 15px;
+                overflow: hidden;
+                font-family: "GothamProRegular";
+                max-width: 1000px;
+            }
+            a{
+                color: #909090;
+                font-size: 12px;
+                font-weight: 700;
+                text-decoration: underline;
+                letter-spacing: 1.38px;
+                font-family: "GothamProRegular";
+            }
+        }
+    }
+    .more-news {
+        max-width: 150px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 35px;
+        a {
+            text-decoration: underline;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 500;
+            color: #909090;
+            letter-spacing: 1.2px;
+        }
+        img {
+            width: 20px;
+            height: 18px;
+        }
+    }
+    .topImgArr {
+        width: 60px;
+        height: 60px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (min-width: 425px){
+    .all-searchpage{
+        .top-search{
+            justify-content: space-around;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+    .all-searchpage{
+        .top-search{
+            margin-bottom: 35px;
+        }
+        h3{
+            font-size: 48px;
+            margin-bottom: 35px;
+            text-align: center;
+        }
+        h4{
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        .all-results{
+            max-width: 1020px;
+            margin: 0 auto;
+            .one-result{
+                a{
+                    display: none;
+                }
+                p{
+                    height: auto;
+                    margin-left: 25px;
+                }
+            }
+        }
+        .more-news {
+            display: none;
+        }
+        .topImgArr {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .all-searchpage{
+        .top-search{
+            justify-content: space-between;
+            input{
+                max-width: 890px;
+            }
+        }
+    }
+  }

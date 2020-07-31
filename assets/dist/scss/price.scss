@@ -1,0 +1,219 @@
+.main-info{
+    h2{
+        color: #282828;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    div{
+        p{
+            color: #282828;
+            font-size: 16px;
+            font-family: "GothamProLight";
+            line-height: 26px;
+            height: 180px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+        a{
+            color: #909090;
+            font-size: 12px;
+            line-height: 26.03px;
+            text-decoration: underline;
+            letter-spacing: 1.2px;
+            font-family: "GothamProMedium";
+        }
+        .read-all{
+            display: block;
+        }
+        .hid-all{
+            display: none;
+        }
+    }
+    .open-info{
+        p{
+            height: 100%;
+        }
+        .read-all{
+            display: none;
+        }
+        .hid-all{
+            display: block;
+        }
+    }
+}
+.all-price{
+    max-width: 1175px;
+    .one-price{
+        // margin-bottom: 10px;
+        display: flex;
+        align-items: inherit;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 1070px;
+          h4{
+              color: #282828;
+              font-family: "GothamProRegular";
+              font-size: 16px;
+              padding: 25px 20px;
+              border-radius: 13px;
+              margin-bottom: 15px;
+              a{
+                color: #0c9764;
+                text-decoration: underline;
+              }
+          }
+          .serv{
+              max-width: 840px;
+              width: 100%;
+              line-height: 26px;
+          }
+          .cena{
+              font-family: "GothamProBold";
+              max-width: 290px;
+              width: 100%;
+          }
+      }
+      .blue{
+          h4{
+              background-color: #e0fef9;
+          }
+      }  
+      .grey{
+          h4{
+              background-color: #fbfbfb;
+          }
+      }
+      .one-row{
+          margin-bottom: 10px;
+          h4{
+            color: #282828;
+            font-family: "GothamProBold";
+            font-size: 18px;
+            font-style: italic;
+            max-width: 1071px;
+            width: 100%;
+            padding: 25px 20px;
+            border-radius: 13px;
+          }
+      }
+    .first{
+        margin-bottom: 20px;
+        max-width: 1080px;
+        margin-left: auto;
+    }
+    .price-table{
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 25px;
+            cursor: pointer;
+            h3{
+                color: #282828;
+                font-size: 18px;
+                font-family: "GothamProMedium";
+                margin-right: 13px;
+            }
+            img{
+                transform: rotate(-90deg);
+                transition: 0.5s;
+            }
+        }
+        .open-arrow{
+            img{
+                transform: rotate(0deg);
+            }
+        }
+        .all-table{
+            display: none;
+            max-width: 1080px;
+            margin-left: auto;
+        }
+    }
+}
+
+
+@media screen and (min-width: 430px){
+    .main-info {
+        div{
+            p{
+                height: auto;
+            }
+            a{
+                display: none !important;
+            }
+        }
+    }  
+}
+
+@media screen and (min-width: 500px){ 
+    .all-price{
+        .one-price{
+            flex-wrap: nowrap;
+            .serv{
+                margin-right: 5px;
+            }
+            .cena{
+                width: auto;
+                text-align: center;
+                min-width: 130px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px){
+    .main-info {
+        h2{
+            font-size: 32px;
+        }
+    }  
+}
+
+@media screen and (min-width: 1024px){
+    .main-info {
+        div{
+            max-width: 1147px;
+            margin-left: 20px;
+            p{
+                height: auto;
+                margin-bottom: 65px;
+            }
+            a{
+                display: none;
+            }
+        }
+    }  
+    .all-price{
+        .one-price{
+            .cena{
+                width: 100%;
+            }
+        }
+        .price-table{
+            margin-bottom: 50px;
+            .title{
+                h3{
+                    font-size: 28px;
+                }
+                img{
+                    display: none;
+                }
+            }
+            .all-table{
+                display: block;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1440px){
+    .main-info {
+        h2{
+            font-size: 48px;
+            text-transform: uppercase;
+            margin-bottom: 65px;
+        }
+    }  
+}

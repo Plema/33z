@@ -1,0 +1,160 @@
+.review-mob{
+    margin-bottom: 30px;
+}
+.topImgArr {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.main-info{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .left-part{
+        text-align: center;
+        h3 {
+            color: #282828;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 15px;   
+        }
+        img{
+            border-radius: 15px;
+            max-width: 295px;
+            margin-bottom: 25px;
+        }
+        button{
+            display: none;
+        }
+    }
+    .right-part{
+        h3{
+            color: #282828;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            display: none;
+        }
+        .one-point{
+            margin-bottom: 30px;
+            max-width: 590px;
+            .title{
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                .yes{
+                    margin-right: 20px;
+                    max-width: 20px;
+                    width: 100%;
+                    height: 20px;
+                    box-shadow: 0 7px 21px rgba(249, 187, 39, 0.86);
+                    background-image: linear-gradient(to top, #fbb91d 0%, #efd388 100%);
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                h4{
+                    color: #282828;
+                    font-size: 18px;
+                    font-family: "GothamProBold";
+                }
+            }
+            p{
+                padding-left: 40px;
+                color: #282828;
+                font-size: 16px;
+                font-family: "GothamProLight";
+                line-height: 24px;
+            }
+            ul{
+                padding-left: 40px;
+                margin-left: 25px;
+                li{
+                    margin-bottom: 20px;
+                    color: #282828;
+                    font-size: 18px;
+                    font-family: "GothamProLight";
+                    line-height: 24px;
+                    position: relative;
+                    padding-left: 30px;
+                    &:before{
+                        content: '';
+                        position: absolute;
+                        width: 12px;
+                        height: 12px;
+                        background-color: #0c9764;
+                        top: 6px;
+                        margin: auto;
+                        left: 0;
+                        border-radius: 50%;
+                    } 
+                }
+            }
+        }
+    }
+}
+.bottom-but{
+    margin-bottom: 50px !important;
+}
+@media screen and (min-width: 1024px){
+    .topImgArr{
+        display: none;
+    }
+    .main-info{
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        .left-part{
+            margin-right: 25px;
+            h3 {
+                display: none;
+            }
+            img{
+                margin-bottom: 45px;
+            }
+            button{
+                display: block;
+            }
+        }
+        .right-part{
+            max-width: 870px;
+            width: 100%;
+            h3{
+                padding-bottom: 35px;
+                border-bottom: 1px solid #f4f4f4;
+                margin-bottom: 40px;
+                font-size: 32px;
+                display: block;
+            }
+            .one-point {
+                .title {
+                    .yes {
+                        margin-right: 38px;
+                    }
+                }
+                p {
+                    padding-left: 58px;
+                }
+            }
+        }
+    }
+    .bottom-but{
+        display: none !important;
+    }
+  }
+
+  @media screen and (min-width: 1440px){
+    .main-info{
+        margin-left: 20px;
+        .left-part{
+            margin-right: 100px;
+        }
+    }
+    .review-mob{
+        margin-bottom: 50px;
+    }
+  }
